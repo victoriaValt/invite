@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@600&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="main_container">
+
+      <h1 class="question">
+        Ты проведешь со мной 24.02.2024?
+      </h1>
+      <h2 class="question">
+        у тебя 2 варианта
+      </h2>
+
+      <div class="gif_container">
+        <!-- <img src="https://i.postimg.cc/CKfWDG6j/first.gif"> -->
+        <img src="https://media1.tenor.com/m/MCLtDVYmaq8AAAAC/cat-please.gif" class="gif__img">
+        
+        <!-- <img src="https://media1.tenor.com/m/q7QZxd05E7EAAAAC/nana-osaki-nana-o.gif"> -->
+      </div>
+
+      <ul class="buttons">
+        <li class="buttons_el">
+          <button class="btn" id="yesButton" onclick="yesPage()">ДА</button>
+        </li>
+        <li class="buttons_el">
+          <p class="around_buttons">ИЛИ</p>
+        </li>
+        <li class="buttons_el">
+          <button class="btn" id="noButton" onclick="noPage()">нет</button>
+        </li>
+        <!-- <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Нет</button> -->
+
+      </ul>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
